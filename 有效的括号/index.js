@@ -1,4 +1,8 @@
 var isValid = function(s) {
+
+     // 数据结构: 堆栈
+     // 空间复杂度: O(n)
+     // 时间复杂度: O(n)
       let map = new Map([['}', '{'], [')', '('], [']', '[']])
       let arr = []
       let len = s.length
