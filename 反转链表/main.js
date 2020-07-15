@@ -24,6 +24,5 @@ var reverseList = function(head) {
    }
    
    head.next = null
-   
    return pre
 };
